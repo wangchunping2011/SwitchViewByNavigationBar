@@ -93,7 +93,7 @@ static CGFloat navigationBarHeight;
 }
 
 #pragma mark - UIScrollViewDelegate
-
+//此处注意要用方法scrollViewDidScroll，而不是方法scrollViewDidEndDecelerating
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView == self.rootScrollView) {
         CGPoint point = scrollView.contentOffset;
