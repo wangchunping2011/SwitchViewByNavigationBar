@@ -1,2 +1,2 @@
 # SwitchViewByNavigationBar
-通过两个scrollView实现滑动切换视图
+滑动切换视图（按钮在导航栏上）
